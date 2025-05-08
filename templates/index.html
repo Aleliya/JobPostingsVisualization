@@ -105,26 +105,38 @@
   <body>
     <div class="container">
       <h1>Job Postings Analysis</h1>
+      <p>
+        This visualization provides an analysis of vacancies in various IT
+        professions, which can be selected below for analysis. Or by default,
+        the choice is set to "All", which means that all vacancies are presented
+        for analysis in order to study the average values of indicators in the
+        IT market.
+      </p>
 
       <div style="text-align: center; margin-bottom: 20px">
-        <label for="role-select"><strong>Выберите профессию: </strong></label>
+        <label for="role-select"
+          ><strong>Choose a profession in IT: </strong></label
+        >
         <select id="role-select">
-          <option value="all">Все</option>
+          <option value="all">All</option>
         </select>
       </div>
 
       <div class="chart-container">
         <h2>1. Salary Distribution by Experience Level</h2>
+        <p>This chart helps to get an insights of the salary distribution</p>
         <div id="salary-chart"></div>
       </div>
 
       <div class="chart-container">
-        <h2>2. Key Skills Word Cloud</h2>
+        <h2>2. Key Skills</h2>
+        <p>This graph helps you get an insights of the required skills</p>
         <div id="skills-chart"></div>
       </div>
 
       <div class="chart-container">
         <h2>3. Vacancies by Work Format</h2>
+        <p>This schedule helps to get an insights of the work formats</p>
         <div id="work-format-chart"></div>
       </div>
     </div>
@@ -467,12 +479,12 @@
           drawPieChart(
             container,
             scheduleData,
-            "Распределение по графику работы"
+            "Distribution according to work schedule"
           );
           drawPieChart(
             container,
             employmentData,
-            "Распределение по типу занятости"
+            "Distribution by type of employment"
           );
 
           function drawPieChart(container, data, title) {
@@ -552,7 +564,7 @@
                 tooltip.transition().duration(200).style("opacity", 0.9);
                 tooltip
                   .html(
-                    `<strong>${d.data.label}</strong><br>Количество: ${d.data.count}`
+                    `<strong>${d.data.label}</strong><br>Count: ${d.data.count}`
                   )
                   .style("left", event.pageX + 10 + "px")
                   .style("top", event.pageY - 28 + "px");

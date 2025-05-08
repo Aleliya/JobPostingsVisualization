@@ -11,8 +11,8 @@ This project provides interactive visualization of job market data, offering ins
 
 The repository is organized as follows:
 
-- data/ clean_categorized_vacancies.json — Processed job postings data
-- templates/ index.html — Frontend part responsible for interactive visualization
+- data/ — Processed job postings data
+- templates/ — Frontend part responsible for interactive visualization
 - server.py — Flask backend server
 - Dockerfile — Container configuration
 - docker-compose.yml — Defines services for containerized deployment
