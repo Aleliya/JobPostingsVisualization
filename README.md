@@ -27,13 +27,13 @@ The repository is organized as follows:
 
 ## Sample Visualizations
 
-![Salary Distribution chart](<https://github.com/Aleliya/JobPostingsVisualization/blob/assets/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(857).png>)
+![Salary Distribution chart](https://github.com/Aleliya/JobPostingsVisualization/blob/assets/1.PNG)
 
-![Key Skills chart](<https://github.com/Aleliya/JobPostingsVisualization/blob/assets/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(858).png>)
+![Key Skills chart](https://github.com/Aleliya/JobPostingsVisualization/blob/assets/2.PNG)
 
-![Work Format chart](<https://github.com/Aleliya/JobPostingsVisualization/blob/assets/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(859).png>)
+![Work Format chart](https://github.com/Aleliya/JobPostingsVisualization/blob/assets/3.PNG)
 
-![Work Format chart](<https://github.com/Aleliya/JobPostingsVisualization/blob/assets/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(860).png>)
+![Work Format chart](https://github.com/Aleliya/JobPostingsVisualization/blob/assets/4.PNG)
 
 ## Getting Started
 
